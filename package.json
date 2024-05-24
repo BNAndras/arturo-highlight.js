@@ -1,0 +1,29 @@
+{
+    "name": "highlightjs-arturo",
+    "version": "1.0.0",
+    "description": "Adds support for the Arturo language to Highlight.js.",
+    "main": "src/arturo.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec"
+      },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BNAndras/arturo-highlight.js.git"
+    },
+    "author": "Andras B Nagy",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/BNAndras/arturo-highlight.js/issues"
+    },
+    "homepage": "https://github.com/BNAndras/arturo-highlight.js#readme",
+    "devDependencies": {
+        "highlight.js": "^10.7.2",
+        "mocha": "^10.0.0",
+        "should": "^13.2.3"
+      },
+      "dependencies": {
+        "minimist": ">=1.2.6",
+        "mkdirp": "^1.0.4"
+    }
+}
+  
